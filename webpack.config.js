@@ -20,10 +20,8 @@ module.exports = {
     publicPath: 'dist/',
   },
   devServer: {
-    hot: true,
-    open: true,
-    devMiddleware: {
-      publicPath: '/dist/',
-    },
-  }
+     publicPath: '/dist/',
+     hot: true,
+     open: true,
+   }
 }
